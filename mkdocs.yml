@@ -1,0 +1,58 @@
+site_name: Sala 115
+site_description: Material de apoyo para estudiantes de la Sala 115  
+site_author: Camilo Fonseca Romero
+
+theme:
+  name: readthedocs
+  # titles_only: False
+  # collapse_navigation: False
+  navigation_depth: 3
+  # sticky_navigation: True
+  locale: es
+
+
+markdown_extensions:
+  - callouts
+  - admonition
+  - toc:
+      permalink: "#"
+      baselevel: 2
+      separator: "-"
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+  - pymdownx.keys
+  - pymdownx.blocks.tab
+  - pymdownx.superfences:
+      custom_fences:
+        # Mermaid diagrams
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
+
+extra_javascript:
+  # - javascripts/math.js  # De forma local PERO PESA MUCHO!!!! 
+  # - javascripts/config.js  # For MathJax configuration
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  #- optionalConfig.js
+  #- https://cdn.jsdelivr.net/npm/mermaid@8.5.2/dist/mermaid.min.js
+  #- extra-loader.js
+
+plugins:
+  - search
+  - section-index
+  - mermaid2:
+      javascript: https://unpkg.com/mermaid@11.12.0/dist/mermaid.esm.min.mjs
+
+nav:
+  - Home: index.md
+  - "about: render markdown en pruebas": about.md
+  - GUIA 01:
+      - guia01/index.md # para acceder a la sección de GUIA 01
+      - Actividad 01: guia01/actividad01.md
+      - Actividad 02: guia01/actividad02.md
+  - GUIA 02:
+      - Actividad 01: guia02/actividad01.md 
+      - Actividad 02: guia02/actividad02.md
+

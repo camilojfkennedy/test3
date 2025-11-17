@@ -1,6 +1,8 @@
 site_name: Sala 115 - TEST3
 site_description: Test de pruebas para mkdocs 
 site_author: Camilo Fonseca Romero
+site_url: !ENV READTHEDOCS_CANONICAL_URL
+
 
 theme:
   name: readthedocs

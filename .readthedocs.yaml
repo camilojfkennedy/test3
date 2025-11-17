@@ -28,4 +28,4 @@ mkdocs:
 formats:
   - pdf
   - epub
-  - html
+  - htmlzip

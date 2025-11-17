@@ -11,7 +11,7 @@ build:
     python: "3.13"
   jobs:
     pre_install:
-      - pip install mkdocs-section-index pymdown-extensions pymdown-callouts 
+      - pip install mkdocs-section-index pymdown-extensions markdown-callouts 
     #- list: (['pip install mkdocs-section-index pymdown-extensions pymdown-callouts'])
     #- pip install mkdocs-section-index pymdown-extensions pymdown-callouts
 

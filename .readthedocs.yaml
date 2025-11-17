@@ -10,7 +10,8 @@ build:
   tools:
     python: "3.13.1"
   jobs:
-    - pip install mkdocs-section-index pymdown-extensions pymdown-callouts
+    - list (['pip install mkdocs-section-index pymdown-extensions pymdown-callouts'])
+    #- pip install mkdocs-section-index pymdown-extensions pymdown-callouts
 
 
 # Build documentation with Mkdocs

@@ -1,5 +1,5 @@
-site_name: Sala 115
-site_description: Material de apoyo para estudiantes de la Sala 115  
+site_name: Sala 115 - TEST3
+site_description: Test de pruebas para mkdocs 
 site_author: Camilo Fonseca Romero
 
 theme:

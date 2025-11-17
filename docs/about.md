@@ -119,7 +119,9 @@ Esto es un ejemplo de [enlace](https://jfkennedy.edu.co)
 
 titulo1 | titulo2 | titulo3
 -|-|-
-hola | hola | hola
+hola | hola | ![imagen](guia01/img/camilo.png)
+`hola`|$X$|
+
 
 ---
 ## TABS
